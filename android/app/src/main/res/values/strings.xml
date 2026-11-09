@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Cartas &amp; Paradigmas</string>
+    <string name="title_activity_main">Cartas &amp; Paradigmas</string>
+    <string name="package_name">br.edu.paradigmas.cartaseparadigmas</string>
+    <string name="custom_url_scheme">br.edu.paradigmas.cartaseparadigmas</string>
+</resources>

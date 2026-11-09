@@ -1,0 +1,7 @@
+{
+  "appId": "br.edu.paradigmas.cartaseparadigmas",
+  "appName": "Cartas & Paradigmas",
+  "webDir": "www",
+  "backgroundColor": "#0c0a1a",
+  "android": { "backgroundColor": "#0c0a1a" }
+}

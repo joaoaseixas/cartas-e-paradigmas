@@ -1,0 +1,27 @@
+{
+  "name": "rpg-paradigmas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Cartas & Paradigmas - RPG de cartas em 3D com roleta de heróis (POO + SOLID + funcional + lógico)",
+  "scripts": {
+    "serve": "node serve.cjs",
+    "test": "node tests/perfil.mjs && node tests/simulacao.mjs",
+    "build:desktop": "node desktop/empacotar.mjs",
+    "sync:android": "npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/status-bar": "^8.0.4",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^8.5.3",
+    "@electron/packager": "^20.3.0",
+    "electron": "^45.2.3",
+    "png-to-ico": "^3.0.2"
+  }
+}
